@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <title>Personal Blueprint for Success – Luca Black</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+    <header class="site-header">
+        <div class="container header-inner">
+            <h1 class="logo">Blueprint for Success</h1>
+            <nav class="nav">
+                <button class="nav-link" data-scroll-target="#self-reflection">Self-Reflection</button>
+                <button class="nav-link" data-scroll-target="#smart-goals">Goals</button>
+                <button class="nav-link" data-scroll-target="#strategies">Strategies</button>
+                <button class="nav-link" data-scroll-target="#future">Future Vision</button>
+                <button class="nav-link" data-scroll-target="#timeline">Timeline</button>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+
+        <section class="hero">
+            <div class="container hero-inner">
+                <div>
+                    <p class="eyebrow">UNST 194 Final Project</p>
+                    <h2>Your Blueprint, In Code</h2>
+                    <p class="hero-text">
+                        Placeholder intro text about what this website represents.
+                        Will include brief overview of my success plan.
+                    </p>
+                    <div class="hero-tags">
+                        <span class="tag">Reflection</span>
+                        <span class="tag">SMART Goals</span>
+                        <span class="tag">Strategies</span>
+                        <span class="tag">Future Vision</span>
+                    </div>
+                </div>
+                <div class="hero-card">
+                    <h3>Goal Progress</h3>
+                    <p class="hero-card-text">
+                        Click a goal below to mark it started or completed.
+                    </p>
+                    <div class="progress-wrapper">
+                        <div class="progress-bar">
+                            <div class="progress-fill" id="goals-progress-fill"></div>
+                        </div>
+                        <p id="goals-progress-label" class="progress-label">0 / 6 goals</p>
+                    </div>
+                    <p class="hint-text">More features will be added.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="self-reflection" class="section">
+            <div class="container">
+                <h2 class="section-title">Part One Self-Reflection</h2>
+                <p class="section-subtitle">Notes and ideas for later.</p>
+
+                <div class="grid-2">
+                    <div class="card">
+                        <h3>College Experience So Far</h3>
+                        <ul class="bullet-list">
+                            <li>Adjusting to workload</li>
+                            <li>Learning new habits</li>
+                            <li>Still figuring out balance</li>
+                        </ul>
+                    </div>
+
+                    <div class="card">
+                        <h3>Past Struggles and Motivation</h3>
+                        <ul class="bullet-list">
+                            <li>Procrastination before college</li>
+                            <li>Now trying to improve consistency</li>
+                            <li>Motivated by career and self-improvement</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="smart-goals" class="section section-accent">
+            <div class="container">
+                <h2 class="section-title">SMART Goals (Draft)</h2>
+                <p class="section-subtitle">6 total goals Work in progress</p>
+
+                <div class="goals-layout">
+
+                    <div class="goals-column">
+                        <h3 class="goals-heading">Academic / Career</h3>
+
+                        <article class="goal-card" data-goal-id="1">
+                            <div class="goal-header">
+                                <span class="goal-term">Short-term</span><span class="goal-chip">Academic</span>
+                            </div>
+                            <h4>Straight A’s</h4>
+                            <p>Check grades earlier start assignments sooner</p>
+                            <p class="goal-meta"><strong>Timeline:</strong> This year</p>
+                            <button class="goal-toggle" type="button">Toggle</button>
+                        </article>
+
+                        <article class="goal-card" data-goal-id="2">
+                            <div class="goal-header">
+                                <span class="goal-term">Medium-term</span><span class="goal-chip">Academic</span>
+                            </div>
+                            <h4>Build portfolio</h4>
+                            <p>2 projects published GitHub Pages etc.</p>
+                            <p class="goal-meta"><strong>Timeline:</strong> 2026</p>
+                            <button class="goal-toggle" type="button">Toggle</button>
+                        </article>
+
+                        <article class="goal-card" data-goal-id="3">
+                            <div class="goal-header">
+                                <span class="goal-term">Long-term</span><span class="goal-chip">Career</span>
+                            </div>
+                            <h4>Tech career</h4>
+                            <p>Software engineering or backend work</p>
+                            <p class="goal-meta"><strong>Timeline:</strong> After degree</p>
+                            <button class="goal-toggle" type="button">Toggle</button>
+                        </article>
+                    </div>
+
+                    <div class="goals-column">
+                        <h3 class="goals-heading">Personal</h3>
+
+                        <article class="goal-card" data-goal-id="4">
+                            <div class="goal-header">
+                                <span class="goal-term">Short-term</span><span class="goal-chip goal-chip-personal">Personal</span>
+                            </div>
+                            <h4>Gym 4 days</h4>
+                            <p>Still planning routine</p>
+                            <p class="goal-meta"><strong>Timeline:</strong> Weekly</p>
+                            <button class="goal-toggle" type="button">Toggle</button>
+                        </article>
+
+                        <article class="goal-card" data-goal-id="5">
+                            <div class="goal-header">
+                                <span class="goal-term">Medium-term</span><span class="goal-chip goal-chip-personal">Personal</span>
+                            </div>
+                            <h4>Run miles</h4>
+                            <p>Goal is 10+ per week</p>
+                            <p class="goal-meta"><strong>Timeline:</strong> Next year</p>
+                            <button class="goal-toggle" type="button">Toggle</button>
+                        </article>
+
+                        <article class="goal-card" data-goal-id="6">
+                            <div class="goal-header">
+                                <span class="goal-term">Long-term</span><span class="goal-chip goal-chip-personal">Personal</span>
+                            </div>
+                            <h4>Family time</h4>
+                            <p>Biweekly visits TBD</p>
+                            <p class="goal-meta"><strong>Timeline:</strong> Ongoing</p>
+                            <button class="goal-toggle" type="button">Toggle</button>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="strategies" class="section">
+            <div class="container">
+                <h2 class="section-title">Strategies (Notes)</h2>
+                <ul class="bullet-list">
+                    <li>Pomodoro idea</li>
+                    <li>Check Canvas more often</li>
+                    <li>Office hours etc.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="future" class="section section-accent">
+            <div class="container">
+                <h2 class="section-title">Future Vision (Draft)</h2>
+                <ul class="bullet-list">
+                    <li>Internships</li>
+                    <li>Skills and portfolio</li>
+                    <li>Healthy lifestyle</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="timeline" class="section">
+            <div class="container">
+                <h2 class="section-title">Project Timeline & Next Steps</h2>
+                <p class="section-subtitle">
+                    Steps to move from draft ideas to a completed blueprint website.
+                </p>
+
+                <ol class="timeline">
+                    <li class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Week 6</h3>
+                            <ul class="timeline-list">
+                                <li>Outline site structure (hero, 4 parts, timeline)</li>
+                                <li>Write placeholder text for all sections</li>
+                                <li>Rough bullet points for reflection + goals</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Week 7</h3>
+                            <ul class="timeline-list">
+                                <li>Build final page layout in HTML and CSS</li>
+                                <li>Begin refining written content</li>
+                                <li>Get early feedback from peers</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Week 8</h3>
+                            <ul class="timeline-list">
+                                <li>Add JavaScript progress tracker</li>
+                                <li>Improve accessibility, spacing, color</li>
+                                <li>More detailed writing in all 4 sections</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Week 9</h3>
+                            <ul class="timeline-list">
+                                <li>Soft Launch submission</li>
+                                <li>Polish visuals + responsive tweaks</li>
+                                <li>Revise SMART goals wording</li>
+                            </ul>
+                        </div>
+                    </li>
+
+                    <li class="timeline-item">
+                        <div class="timeline-dot"></div>
+                        <div class="timeline-content">
+                            <h3>Finals Week</h3>
+                            <ul class="timeline-list">
+                                <li>Apply instructor + peer feedback</li>
+                                <li>Final pass for clarity and style</li>
+                                <li>Submit final project by Dec 9</li>
+                            </ul>
+                        </div>
+                    </li>
+                </ol>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer class="site-footer">
+        <div class="container footer-inner">
+            <p>Personal Blueprint for Success</p>
+            <p class="footer-subtext">UNST 194 Portland State University</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
